@@ -1,5 +1,8 @@
 # Algunos de los ejercicios del curso de SQL Intermedio de DataCamp 
+
 Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sql), tiene una duración de 4 horas, 14 videos y 50 ejercicios. 👩‍💻
+
+Certificado [aquí](https://www.datacamp.com/completed/statement-of-accomplishment/course/107f68827dfadbcbcef6569c0f7e263eff874cab)
 
 ## Descripción del curso:
 
