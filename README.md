@@ -1,6 +1,25 @@
-# SQL-Intermedio---Ejercicios-Curso-DataCamp
+# Algunos de los ejercicios del curso de SQL Intermedio de DataCamp
+Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sql)
 
-## 1-Selección de Datos
+### Descripción del curso:
+
+SQL es ampliamente reconocido como el lenguaje más popular para convertir datos sin procesar almacenados en una base de datos en información procesable. Este curso utiliza una base de datos de películas para enseñar cómo navegar y extraer información de los datos mediante SQL.
+
+#### Descubra el filtrado con SQL:
+
+Descubrirá técnicas para filtrar y comparar datos, lo que le permitirá extraer información específica para obtener información y responder preguntas sobre los datos.
+
+#### Conozca la agregación:
+
+Conocerá las funciones de agregación, esenciales para resumir datos de manera eficaz y obtener información valiosa de grandes conjuntos de datos. También combinará esto con la clasificación y agrupación de datos, lo que agregará otra capa de significado a sus conocimientos y análisis.
+
+#### Escribir consultas limpias:
+
+Por último, se le mostrarán algunos consejos y prácticas recomendadas para presentar sus datos y consultas de forma ordenada. A lo largo del curso, tendrá consultas prácticas para consolidar su comprensión de los conceptos. Al final del curso, tendrá todo lo que necesita saber para analizar datos utilizando su propio código SQL hoy mismo.
+
+## 1-Selección de Datos: 
+
+Aprenderá a consultar una base de datos de películas y a seleccionar los datos necesarios para responder preguntas sobre las películas y los actores. También comprenderá cómo se ejecuta y se formatea el código SQL.
 
 ### Consultar una Base de Datos
 
@@ -40,7 +59,9 @@ SELECT COUNT(DISTINCT country) AS count_distinct_countries
 FROM films;
 ```
 
-## 2- Filtrar Registros
+## 2- Filtrar Registros:
+
+Aprenda a filtrar datos numéricos y textuales con SQL. El filtrado es un uso importante de este lenguaje. Aprenderá a utilizar nuevas palabras clave y operadores para acotar su consulta y obtener resultados que cumplan con los criterios deseados, además de comprender mejor los valores NULL y cómo manejarlos.
 
 Uso de WHERE con números
 Filtrar con WHERE te permite analizar mejor tus datos. 
@@ -137,7 +158,9 @@ FROM films
 WHERE budget IS NULL;
 ```
 
-## 3- Funciones Agregadas
+## 3- Funciones Agregadas:
+
+SQL le permite ampliar y reducir la información para comprender mejor un conjunto de datos completo, sus subconjuntos y sus registros individuales. Aprenderá a resumir datos mediante funciones agregadas y a realizar cálculos aritméticos básicos dentro de las consultas para obtener información sobre lo que hace que una película sea exitosa.
 
 -- Consulta la suma de las duraciones de las películas
 ```
@@ -146,4 +169,3 @@ FROM films;
 ```
 
 Combina funciones agregadas con WHERE
-V
