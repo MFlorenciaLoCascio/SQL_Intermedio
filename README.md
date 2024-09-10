@@ -1,19 +1,19 @@
-# Algunos de los ejercicios del curso de SQL Intermedio de DataCamp 👩‍💻
-Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sql), tiene una duración de 4 horas, 14 videos y 50 ejercicios.
+# Algunos de los ejercicios del curso de SQL Intermedio de DataCamp 
+Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sql), tiene una duración de 4 horas, 14 videos y 50 ejercicios. 👩‍💻
 
 ### Descripción del curso:
 
 SQL es ampliamente reconocido como el lenguaje más popular para convertir datos sin procesar almacenados en una base de datos en información procesable. Este curso utiliza una base de datos de películas para enseñar cómo navegar y extraer información de los datos mediante SQL.
 
-#### Descubra el filtrado con SQL:
+#### ➡️ Descubra el filtrado con SQL:
 
 Descubrirá técnicas para filtrar y comparar datos, lo que le permitirá extraer información específica para obtener información y responder preguntas sobre los datos.
 
-#### Conozca la agregación:
+#### ➡️ Conozca la agregación:
 
 Conocerá las funciones de agregación, esenciales para resumir datos de manera eficaz y obtener información valiosa de grandes conjuntos de datos. También combinará esto con la clasificación y agrupación de datos, lo que agregará otra capa de significado a sus conocimientos y análisis.
 
-#### Escribir consultas limpias:
+#### ➡️ Escribir consultas limpias:
 
 Por último, se le mostrarán algunos consejos y prácticas recomendadas para presentar sus datos y consultas de forma ordenada. A lo largo del curso, tendrá consultas prácticas para consolidar su comprensión de los conceptos. Al final del curso, tendrá todo lo que necesita saber para analizar datos utilizando su propio código SQL hoy mismo.
 
