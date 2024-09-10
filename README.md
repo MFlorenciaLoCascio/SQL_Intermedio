@@ -1,5 +1,5 @@
-# Algunos de los ejercicios del curso de SQL Intermedio de DataCamp
-Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sql)
+# Algunos de los ejercicios del curso de SQL Intermedio de DataCamp 👩‍💻
+Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sql), tiene una duración de 4 horas, 14 videos y 50 ejercicios.
 
 ### Descripción del curso:
 
@@ -17,7 +17,7 @@ Conocerá las funciones de agregación, esenciales para resumir datos de manera 
 
 Por último, se le mostrarán algunos consejos y prácticas recomendadas para presentar sus datos y consultas de forma ordenada. A lo largo del curso, tendrá consultas prácticas para consolidar su comprensión de los conceptos. Al final del curso, tendrá todo lo que necesita saber para analizar datos utilizando su propio código SQL hoy mismo.
 
-## 1-Selección de Datos: 
+## 1️⃣ Selección de Datos: 
 
 Aprenderá a consultar una base de datos de películas y a seleccionar los datos necesarios para responder preguntas sobre las películas y los actores. También comprenderá cómo se ejecuta y se formatea el código SQL.
 
@@ -59,7 +59,7 @@ SELECT COUNT(DISTINCT country) AS count_distinct_countries
 FROM films;
 ```
 
-## 2- Filtrar Registros:
+## 2️⃣ Filtrar Registros:
 
 Aprenda a filtrar datos numéricos y textuales con SQL. El filtrado es un uso importante de este lenguaje. Aprenderá a utilizar nuevas palabras clave y operadores para acotar su consulta y obtener resultados que cumplan con los criterios deseados, además de comprender mejor los valores NULL y cómo manejarlos.
 
@@ -158,7 +158,7 @@ FROM films
 WHERE budget IS NULL;
 ```
 
-## 3- Funciones Agregadas:
+## 3️⃣ Funciones Agregadas:
 
 SQL le permite ampliar y reducir la información para comprender mejor un conjunto de datos completo, sus subconjuntos y sus registros individuales. Aprenderá a resumir datos mediante funciones agregadas y a realizar cálculos aritméticos básicos dentro de las consultas para obtener información sobre lo que hace que una película sea exitosa.
 
@@ -169,3 +169,9 @@ FROM films;
 ```
 
 Combina funciones agregadas con WHERE
+
+
+## 4️⃣ Ordenar y agrupar: 
+
+En este capítulo final, aprenderá a ordenar y agrupar datos. Estas habilidades le permitirán llevar sus análisis a un nuevo nivel, ya que le ayudarán a descubrir información empresarial fundamental e identificar tendencias y resultados. Obtendrá experiencia práctica para determinar qué películas tuvieron el mejor rendimiento y cómo cambiaron las duraciones y los presupuestos de las películas con el tiempo.
+
