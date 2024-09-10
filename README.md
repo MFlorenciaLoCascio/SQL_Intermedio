@@ -217,5 +217,56 @@ FROM people
 ORDER BY name;
 ```
 
+Ordenar varios campos: ORDER BY tambien se puede usar para ordenar en varios campos. Ordenara por el primer campo especificado, uego ordenara por el siguiente, y asi sucesivamente. Como ejemplo, puedes ordenar los datos de las personas por edad y mantener los nombres en orden alfabetico.
 
+-- Selecciona el ano de lanzamiento, La duracion y el titulo ordenados por ano de lanzamiento y duración
+```
+SELECT release_year, duration, title
+FROM films
+ORDER BY release_year ASC, duration ASC;
+```
 
+GROUP BY campos individuales: GROUP BY es una palabra clave de SQL que te permite agrupar y resumir resultados con el uso adicional de funciones agregadas. Por ejemplo, las peliculas se pueden agrupar por certificación e idioma antes de contar los titulos de las peliculas en cada grupo. Esto te permite ver cuantas peliculas tenian una certificacion y una agrupacion de idiomas en particular.
+
+-- Encuentra el release_year y film_count de cada año
+```
+SELECT release_year, COUNT(*) AS film_count
+FROM films
+GROUP BY release_year;
+```
+
+GROUP BY con varios campos: GROUP BY se vuelve mas poderoso cuando se usa en varios campos o se combina con ORDER BY y LIMIT.
+Tal vez estes interesado en conocer los cambios presupuestarios a lo largo de los aflos en paises individuales. Utilizaras la agrupacion en este ejercicio para ver el presupuesto máximo para cada pais en cada afo en el que hay datos disponibles.
+
+-- Busca el release_year, country y max_budget, Luego agrupa y ordena por release_year y country
+```
+SELECT release_year, country, MAX(budget) AS max_budget
+FROM films
+GROUP BY release_year, country
+ORDER BY release_year, country;
+```
+
+Filtrar con HAVING
+Su palabra clave final es HAVING . Funciona de manera similar a WHERE en que es una clausula de filtrado, con la diferencia de que HAVING filtra datos agrupados.
+El filtrado de datos agrupados puede ser especialmente útil cuando se trabaja con un gran conjunto de datos. Cuando trabajes con miles o incluso millones de filas, HAVING te permitirá filtrar solo el grupo de datos que desees, como peliculas de más de dos horas de duración.
+```
+-- Selecciona el pais y el recuento distinto de certificacion como certification_count
+SELECT country, COUNT(DISTINCT certification) AS certification_count
+FROM films
+-- Group by country
+GROUP BY country
+-- Filtra los resultados a paises con mas de 10 certificaciones diferentes
+HAVING COUNT(DISTINCT certification)>10;
+```
+
+HAVING y ORDER BY: El filtrado y la clasificación van de la mano y te brindan una mayor interpretabilidad al ordenar nuestros resultados.
+
+-- Selecciona el country y el presupuesto medio como average_budget , redondeado a dos decimales, de filns. Agrupar los resultados por country. Filtra los resultados a paises con un presupuesto promedio de mas de mil millones ( 1000000000 ). Ordenar por orden descendente del average_budget.
+
+```
+SELECT country, ROUND(AVG(budget), 2) AS average_budget
+FROM films
+GROUP BY country
+HAVING AVG(budget) > 1000000000
+ORDER BY average_budget DESC;
+```
