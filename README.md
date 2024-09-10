@@ -171,10 +171,51 @@ SELECT SUM(duration) AS total_duration
 FROM films;
 ```
 
-Combina funciones agregadas con WHERE
+Combinar funciones agregadas con WHERE: Esta combinación es útil cuando solo quieres resumir un subconjunto de los datos.
 
+-- Calcula la suma de los brutos del ano 2000 o posteriores
+```
+SELECT SUM(gross) AS total_gross
+FROM films
+WHERE release_year >= 2000;
+```
+
+ROUND()
+
+-- Redondea el número promedio de facebook_likes a un decimal
+```
+SELECT ROUND (AVG(facebook_Likes), 1) AS avg_facebook_likes
+FROM reviews;
+```
+
+ROUND() con un parametro negativo
+
+-- Calcula el presupuesto medio redondeado a los miles
+```
+SELECT ROUND (AVG (budget), -3) AS avg_budget_thousands
+FROM films;
+```
+
+Aliasing con funciones: El alias puede ser un salvavidas, especialmente cuando empezamos a hacer consultas SQL más complejas con múltiples criterios. Los alias te ayudan a mantener tu código limpio y legible.
+
+- Calcula title, duration_hours y redondea a 2 decimales de la tabla films
+```
+SELECT title, ROUND(duration / 60.0,2) AS duration_hours
+FROM films;
+```
 
 ## 4️⃣ Ordenar y agrupar: 
 
 En este capítulo final, aprenderá a ordenar y agrupar datos. Estas habilidades le permitirán llevar sus análisis a un nuevo nivel, ya que le ayudarán a descubrir información empresarial fundamental e identificar tendencias y resultados. Obtendrá experiencia práctica para determinar qué películas tuvieron el mejor rendimiento y cómo cambiaron las duraciones y los presupuestos de las películas con el tiempo.
+
+Ordenar campos individuales con ORDER BY
+
+-- Selecciona el nombre de las personas y ordena alfabéticamente
+```
+SELECT name
+FROM people
+ORDER BY name;
+```
+
+
 
