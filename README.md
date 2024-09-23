@@ -6,7 +6,7 @@ Certificado [aquí](https://www.datacamp.com/completed/statement-of-accomplishme
 
 🔖 Puede seguir la ruta de los cursos en el siguiente orden: 
 
-1- [SQL_Intermedio](https://github.com/MFlorenciaLoCascio/SQL_Intermedio) Actual
+1- [SQL_Intermedio](https://github.com/MFlorenciaLoCascio/SQL_Intermedio) Aquí esta ahora
 
 2- [Unión de Datos](https://github.com/MFlorenciaLoCascio/SQL_Union_de_Datos)
 
