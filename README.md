@@ -4,6 +4,16 @@ Puedes acceder al curso [aquí](https://www.datacamp.com/courses/intermediate-sq
 
 Certificado [aquí](https://www.datacamp.com/completed/statement-of-accomplishment/course/107f68827dfadbcbcef6569c0f7e263eff874cab)
 
+🔖 Puede seguir la ruta de los cursos en el siguiente orden: 
+
+1- [SQL_Intermedio](https://github.com/MFlorenciaLoCascio/SQL_Intermedio) Actual
+
+2- [Unión de Datos](https://github.com/MFlorenciaLoCascio/SQL_Union_de_Datos)
+
+3- [Manipulación de Datos](https://github.com/MFlorenciaLoCascio/SQL_Manipulacion_de_Datos)
+
+4- [Resumen de estadísticas y funciones de ventana](https://github.com/MFlorenciaLoCascio/SQL_Funciones_de_Ventana)
+
 ## Descripción del curso:
 
 SQL es ampliamente reconocido como el lenguaje más popular para convertir datos sin procesar almacenados en una base de datos en información procesable. Este curso utiliza una base de datos de películas para enseñar cómo navegar y extraer información de los datos mediante SQL.
